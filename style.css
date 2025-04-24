@@ -1,0 +1,84 @@
+.inp-holder{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 200px;
+}
+
+.main {  display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "holder_light holder_oven"
+      "holder_light holder_oven";
+  }
+  
+  .holder_light { grid-area: holder_light; }
+  
+  .holder_oven { grid-area: holder_oven; }
+  
+
+.holder_oven{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.inp-holder2{
+    margin-top: -60px;
+    margin-left: -200px;
+}
+
+
+.holder_light{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 900px;
+}
+.inp-holder input{
+    border-radius: 10px;
+}
+.cal{
+    margin-left: 39px;
+    height: 90px;
+    width: 90px;
+    background-color: white;
+    border-radius: 20px;
+    margin-bottom: 90px;
+}
+
+.cal_oven{
+    
+        margin-left: 39px;
+        height: 90px;
+        width: 90px;
+        background-color: white;
+        border-radius: 20px;
+        margin-bottom: 90px;
+    
+}
+.ansa{
+    color: black;
+    margin-left: -90px;
+    margin-top: 90px;
+}
+.ansa_oven{
+    color: black;
+}
+.goi{
+    display:block;
+    color: white;
+    margin-left: -90px;
+    margin-top: 90px;
+}
+
+body{
+    background-color: black;
+}
+
+.main{display: grid;}
+
