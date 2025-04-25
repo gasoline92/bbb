@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Калькулятор окупаемости печей</title>
+    <link rel="stylesheet" href="oven.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="main">
+        <div class="holder_oven">
+            <a href="lander.html" class="back">Назад.</a>
+            <div class="inp-holder2 inp-holder" >
+                <input type="number" id="cont_oven" placeholder="Кол-тво">
+                <input type="number" id="price_oven" placeholder="Стоимость 1шт(млн):">
+                <input type="number" id="power_oven" placeholder="Мощность:">
+                <input type="number" id="time_per_year" placeholder="Время работы в год(ч):">
+                <input type="number" id="eng_old" placeholder="Удельное энергопотребление ст. (кВт·ч/т)">
+                <input type="number" id="end_new" placeholder="Удельное энергопотребление нов. (кВт·ч/т)">
+                <input type="number" id="tax_oven" placeholder="Тариф:">
+            </div>
+            <button class="cal_oven">Расчитать окупаемость</button>
+            <h3 id="ans_oven" class="ansa_oven">______________________________________:</h3>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>

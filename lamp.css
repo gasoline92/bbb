@@ -1,0 +1,51 @@
+
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 900px;
+}
+.inp-holder{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    width: 200px; 
+}
+input{
+    padding: 2px;
+    border-radius: 10px;
+
+}
+.holder_light{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px white solid;
+    width: 900px;
+    height: 900px;
+    border-radius:90px;
+    margin-top: 50px;
+}
+.ansa{
+    color: black;
+    margin-left: -90px;
+    margin-top: 90px;
+}
+body{
+    background-color: black;
+}
+.cal{
+    margin-left: 39px;
+    height: 90px;
+    width: 90px;
+    background-color: white;
+    border-radius: 20px;
+    margin-bottom: 90px;
+}
+.goi{
+    display:block;
+    color: white;
+    margin-left: -90px;
+    margin-top: 90px;
+}

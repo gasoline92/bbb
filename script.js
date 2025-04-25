@@ -1,4 +1,3 @@
-
 document.addEventListener('DOMContentLoaded', function() {
     const button = document.querySelector('.cal');
     button.addEventListener('click', function() {
@@ -11,14 +10,11 @@ document.addEventListener('DOMContentLoaded', function() {
         const c2 = parseInt(document.getElementById("end_price").value) || 0;
         const T1 = parseInt(document.getElementById("pre_time").value) || 0;
         const T2 = parseInt(document.getElementById("out_time").value) || 0;
-
         const Ekon_g = N * ((P1 - P2)/1000) * t * tar;
         const sr_o = (N * (c2 - c1)) * Ekon_g;
         const s_o = sr_o / Ekon_g;
         const res = s_o / Ekon_g;
         const res_k = res * 12;
-
-        
         if (isFinite(res_k.toFixed(2))){
         document.getElementById("ans").textContent = `Срок окупаемости: ${res_k.toFixed(2)} месяцев`;
         document.getElementById("ans").classList.add("goi")
@@ -28,8 +24,6 @@ document.addEventListener('DOMContentLoaded', function() {
             document.getElementById("ans").classList.add("goi")
         }
     });
-    
-
 });document.addEventListener('DOMContentLoaded', function() {
     const bun = document.querySelector(".cal_oven");
     bun.addEventListener("click",function() {
@@ -39,15 +33,10 @@ document.addEventListener('DOMContentLoaded', function() {
         const t = parseInt(document.getElementById("time_per_year").value) || 0; // 8000 часов
         const Ud1 = parseInt(document.getElementById("eng_old").value) || 0; // 700 кВт·ч/т
         const Ud2 = parseInt(document.getElementById("end_new").value) || 0; // 550 кВт·ч/т
-        const tar = parseInt(document.getElementById("tax_oven").value) || 0; // 7 руб/кВт·ч
-
-     
+        const tar = parseFloat(document.getElementById("tax_oven").value) || 0; // 7 руб/кВт·ч
         const z = N * s *10000000;
-        
-     
         const d_Ud = Ud1 - Ud2;
         const ek_energy = N * M * d_Ud * t; 
-
         const g_ek = ek_energy * tar;
         const sr_ok = z / g_ek;
         const a = sr_ok.toFixed(2);
@@ -61,5 +50,3 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
 });
-
-

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Калькулятор окупаемости ламп</title>
+    <link rel="stylesheet" href="lamp.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="main">
+        <div class="holder_light">
+            <a href="lander.html" class="back">Назад.</a>
+            <div class="inp-holder">
+                <input type="number" id="count" placeholder="Кол-тво">
+                <input type="number" id="pre_power" placeholder="Изн-ная мощность (Вт)">
+                <input type="number" id="out_power" placeholder="Кон-ная мощность (Вт)">
+                <input type="number" id="hour_per_year" placeholder="Время работы в год (Час)">
+                <input type="number" id="tax" placeholder="Тариф">
+                <input type="number" id="start_price" placeholder="Старая цена">
+                <input type="number" id="end_price" placeholder="Новая цена">
+                <input type="number" id="pre_time" placeholder="Срок службы старого оборудования" >
+                <input type="number" id="out_time" placeholder="Срок работы нового ">
+            </div>
+            <button class="cal" >Расчитать окупаемость</button>
+            <h3 id="ans" class="ansa">__________________________________________</h3>
+        </div> 
+    </div> 
+</body>
+    <script src="script.js"></script>
+</html>
