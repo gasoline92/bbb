@@ -1,4 +1,5 @@
-
+body{font-family: "Gill Sans", sans-serif;
+}
 .main{
     border: 2px white solid;
     border-radius: 90px;
@@ -20,7 +21,7 @@ input{
     font-size: 20px;
     
 
-    text-decoration: none; color: white; background-color: gray;}
+    text-decoration: none; color: rgb(214, 214, 214); background-color: rgb(26, 26, 26);}
 .labels{color: white;}
 .ansa{
     color: black;
@@ -102,7 +103,7 @@ body{
         padding: 10px;
         width: 20vw;
     
-        text-decoration: none; color: white; background-color: gray;}
+        }
 }
 @media(min-width:1200px) {
 

@@ -1,6 +1,7 @@
 
 
-
+body{font-family: "Gill Sans", sans-serif;
+}
 .inp-holder{
     display: flex;
     justify-content: space-between;
