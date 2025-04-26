@@ -1,6 +1,7 @@
 
 .main{
-    
+    border: 2px white solid;
+    border-radius: 90px;
     width: 1200px;
     display: flex;
     align-items: center;
@@ -38,7 +39,6 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 2px white solid;
     width: 900px;
     height: 900px;
     border-radius:90px;
@@ -69,7 +69,7 @@ body{
         width: 40vw;
     }
     input{
-        margin-left: 10vw;
+        margin-left: 0;
     }
     .back{
         margin-bottom: 20px;
