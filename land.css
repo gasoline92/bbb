@@ -5,6 +5,8 @@
     justify-content:space-around;
 }
 .heads{
+    color: white;
+    text-align: center;
     width: 100%;
     height: 90px;
     background-color: black;
@@ -41,7 +43,24 @@ a{
         border: 2px white solid ;
         border-radius: 20px;
         margin-bottom: 90px;
+        width:60vw;
     }
-
-
+    .oven{
+        border: 2px white solid ;
+        border-radius: 20px;
+        width: 60vw;
+        
+    }
+    .heads{
+        color: white;
+        text-align: center;
+        width:90vw;
+        height: 90px;
+        margin-bottom: 90px;
+        background-color: black;
+    }
+    img{
+        margin-left: 10px;
+        width:40vw;
+    }
 }
