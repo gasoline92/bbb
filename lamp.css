@@ -1,21 +1,38 @@
 
 .main{
+    
+    width: 1200px;
     display: flex;
     align-items: center;
     justify-content: center;
     height: 900px;
 }
-.inp-holder{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-direction: column;
-    width: 200px; 
-}
 input{
     padding: 2px;
     border-radius: 10px;
-
+    
+}
+.ansa{
+    color: black;
+    margin-left: -90px;
+    margin-top: 90px;
+}
+body{
+    background-color: black;
+}
+.cal{
+    height: 90px;
+    width: 90px;
+    background-color: white;
+    border-radius: 20px;
+    margin-bottom: 90px;
+    margin-top: 30px;
+}
+.goi{
+    display:block;
+    color: white;
+    margin-left: -90px;
+    margin-top: 90px;
 }
 .holder_light{
     display: flex;
@@ -27,25 +44,51 @@ input{
     border-radius:90px;
     margin-top: 50px;
 }
-.ansa{
-    color: black;
-    margin-left: -90px;
-    margin-top: 90px;
+.inp-holder{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    width: 200px; 
 }
-body{
-    background-color: black;
+@media(max-width:1200px) {
+
+    .main{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width:100%;
+        height: 80vh;
+    }
+    .holder_light{
+        margin-left: 0;
+        height: 70vh;
+        width: 70vw;
+    }
+    .inp-holder{
+        width: 40vw;
+    }
+    input{
+        margin-left: 10vw;
+    }
+    .back{
+        margin-bottom: 20px;
+
+    }
+    .cal{
+        margin: 0px;
+    }
+    .ansa{
+        margin-top: 10px;
+        margin-left: 0;
+        margin-bottom: 90px;
+    }
+
 }
-.cal{
-    margin-left: 39px;
-    height: 90px;
-    width: 90px;
-    background-color: white;
-    border-radius: 20px;
-    margin-bottom: 90px;
-}
-.goi{
-    display:block;
-    color: white;
-    margin-left: -90px;
-    margin-top: 90px;
+@media(min-width:1200px) {
+
+    .main{
+        width: 100%;
+    }
+
 }

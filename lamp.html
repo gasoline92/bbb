@@ -10,8 +10,9 @@
 <body>
     <div class="main">
         <div class="holder_light">
-            <a href="index.html" class="back">Назад.</a>
             <div class="inp-holder">
+                <a href="index.html" class="back">Назад.</a>
+                <button class="cal" >Расчитать окупаемость</button>
                 <input type="number" id="count" placeholder="Кол-тво">
                 <input type="number" id="pre_power" placeholder="Изн-ная мощность (Вт)">
                 <input type="number" id="out_power" placeholder="Кон-ная мощность (Вт)">
@@ -21,9 +22,8 @@
                 <input type="number" id="end_price" placeholder="Новая цена">
                 <input type="number" id="pre_time" placeholder="Срок службы старого оборудования" >
                 <input type="number" id="out_time" placeholder="Срок работы нового ">
+                <h3 id="ans" class="ansa"></h3>
             </div>
-            <button class="cal" >Расчитать окупаемость</button>
-            <h3 id="ans" class="ansa">__________________________________________</h3>
         </div> 
     </div> 
 </body>
