@@ -43,12 +43,12 @@ a{
         border: 2px white solid ;
         border-radius: 20px;
         margin-bottom: 90px;
-        width:60vw;
+        width:89vw;
     }
     .oven{
         border: 2px white solid ;
         border-radius: 20px;
-        width: 60vw;
+        width: 89vw;
         
     }
     .heads{
@@ -61,6 +61,6 @@ a{
     }
     img{
         margin-left: 10px;
-        width:40vw;
+        width:60vw;
     }
 }
