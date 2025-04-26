@@ -26,3 +26,22 @@ body{
 a{
     text-decoration: none;
 }
+
+
+@media(max-width:914px) {
+
+    .main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content:space-around;
+    }
+
+    .lamp{
+        border: 2px white solid ;
+        border-radius: 20px;
+        margin-bottom: 90px;
+    }
+
+
+}
