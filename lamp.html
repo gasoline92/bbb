@@ -13,18 +13,31 @@
             <div class="inp-holder">
                 <a href="index.html" class="back">Назад.</a>
                 <button class="cal" >Расчитать окупаемость</button>
-                <input type="number" id="count" placeholder="Кол-тво">
-                <input type="number" id="pre_power" placeholder="Изн-ная мощность (Вт)">
-                <input type="number" id="out_power" placeholder="Кон-ная мощность (Вт)">
-                <input type="number" id="hour_per_year" placeholder="Время работы в год (Час)">
-                <input type="number" id="tax" placeholder="Тариф">
-                <input type="number" id="start_price" placeholder="Старая цена">
-                <input type="number" id="end_price" placeholder="Новая цена">
-                <input type="number" id="pre_time" placeholder="Срок службы старого оборудования" >
-                <input type="number" id="out_time" placeholder="Срок работы нового ">
+                
+                
+                
+                <label class="labels" for="count">Количество</label>
+                <input type="number" id="count" placeholder="(Шт)">
+                <label class="labels" for="pre_power">Мощность старого оборудования</label>
+                <input type="number" id="pre_power" placeholder="(Вт)">
+                <label class="labels" for="out_power">Мощность нового оборудования</label>
+                <input type="number" id="out_power" placeholder="(Вт)">
+                <label class="labels" for="hour_per_year">Время работы в год</label>
+                <input type="number" id="hour_per_year" placeholder="(Час)">
+                <label class="labels" for="tax">Тариф</label>
+                <input type="number" id="tax" placeholder="(Руб/КВт*Час)">
+                <label class="labels" for="start_price">Старая цена оборудования</label>
+                <input type="number" id="start_price" placeholder="(Руб)">
+                <label class="labels" for="end_price">Новая цена оборудования</label>
+                <input type="number" id="end_price" placeholder="(Руб)">
+                <label class="labels" for="pre_time">Срок службы старого оборудования</label>
+                <input type="number" id="pre_time" placeholder="(Час)" >
+                <label class="labels" for="out_time">Срок работы нового оборудования</label>
+                <input type="number" id="out_time" placeholder="(Час)">
                 <h3 id="ans" class="ansa"></h3>
             </div>
         </div> 
+        <a href="https://github.com/gasoline92/light-bulb-analyser-and-plascer" class="ad">Наше приложение для расчета положения <br> ламп в помещении которое может помочь (github)</a>
     </div> 
 </body>
     <script src="script.js"></script>
