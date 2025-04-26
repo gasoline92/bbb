@@ -67,11 +67,11 @@ body{
         align-items: center;
         justify-content: center;
         width:100%;
-        height: 80vh;
+        height: 100vh;
     }
     .holder_light{
         margin-left: 0;
-        height: 100vh;
+        height: 99vh;
         width: 70vw;
     }
     .inp-holder{
