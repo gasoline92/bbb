@@ -13,13 +13,22 @@
             <div class="inp-holder2 inp-holder" >
                 <a href="index.html" class="back">Назад.</a>
                 <button class="cal_oven">Расчитать окупаемость</button>
-                <input type="number" id="cont_oven" placeholder="Кол-тво">
-                <input type="number" id="price_oven" placeholder="Стоимость 1шт(млн):">
-                <input type="number" id="power_oven" placeholder="Мощность:">
-                <input type="number" id="time_per_year" placeholder="Время работы в год(ч):">
-                <input type="number" id="eng_old" placeholder="Удельное энергопотребление ст. (кВт·ч/т)">
-                <input type="number" id="end_new" placeholder="Удельное энергопотребление нов. (кВт·ч/т)">
-                <input type="number" id="tax_oven" placeholder="Тариф:">
+
+
+                <label class="labels" for="cont_oven">Количество</label>
+                <input type="number" id="cont_oven" placeholder="(Шт)">
+                <label class="labels" for="price_oven">Стоимость за Шт</label>
+                <input type="number" id="price_oven" placeholder="(Млн. Руб)">
+                <label class="labels" for="power_oven">Мощность</label>
+                <input type="number" id="power_oven" placeholder="(Вт)">
+                <label class="labels" for="time_per_year">Время работы в год</label>
+                <input type="number" id="time_per_year" placeholder="(Час):">
+                <label class="labels" for="eng_old">Удельное энергопотребление старых</label>
+                <input type="number" id="eng_old" placeholder="(кВт·ч/т)">
+                <label class="labels" for="end_new">Удельное энергопотребление новых</label>
+                <input type="number" id="end_new" placeholder="(кВт·ч/т)">
+                <label class="labels" for="tax_oven">Тариф</label>
+                <input type="number" id="tax_oven" placeholder="(Руб/КВт*Час)">
                 <h3 id="ans_oven" class="ansa_oven"></h3>
             </div>
         </div>
