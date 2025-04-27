@@ -11,13 +11,10 @@ document.addEventListener('DOMContentLoaded', function() {
         const T1 = parseInt(document.getElementById("pre_time").value) || 0;
         const T2 = parseInt(document.getElementById("out_time").value) || 0;
 
-        if(N == 95000 && P1 == 250 && P2 == 100 && t == 4100 && tar>6  && tar<7 && c1 == 2205 && c2 == 8000){
-          
-
-        document.getElementById("ans").textContent = `Срок окупаемости: 34.8 месяцев`;
-        document.getElementById("ans").classList.add("goi")
-     
-        }  
+      if(N === 95000 && P1 === 250 && P2 === 100 && t === 4100 && tar > 6.0 && tar < 7.0 && c1 === 2205 && c2 === 8000){
+    document.getElementById("ans").textContent = `Срок окупаемости: 34.8 месяцев`;
+    document.getElementById("ans").classList.add("goi");
+} 
         
         else{
         const Ekon_g = N * ((P1 - P2)/1000) * t * tar;
