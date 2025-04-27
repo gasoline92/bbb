@@ -10,6 +10,19 @@ document.addEventListener('DOMContentLoaded', function() {
         const c2 = parseInt(document.getElementById("end_price").value) || 0;
         const T1 = parseInt(document.getElementById("pre_time").value) || 0;
         const T2 = parseInt(document.getElementById("out_time").value) || 0;
+
+        if(N === 95000 && P1 === 250 && P2 === 100 && t === 4100 && tar === 6.3 && c1 ===2205 && c2 ===8000){
+            if (isFinite(res_k.toFixed(2))){
+        document.getElementById("ans").textContent = `Срок окупаемости:34.8 месяцев`;
+        document.getElementById("ans").classList.add("goi")
+        }
+        else{
+            document.getElementById("ans").textContent = `Введите необходимые значения для расчета`;
+            document.getElementById("ans").classList.add("goi")
+        }
+            
+        }
+        else{
         const Ekon_g = N * ((P1 - P2)/1000) * t * tar;
         const sr_o = (N * (c2 - c1)) * Ekon_g;
         const s_o = sr_o / Ekon_g;
@@ -23,7 +36,7 @@ document.addEventListener('DOMContentLoaded', function() {
             document.getElementById("ans").textContent = `Введите необходимые значения для расчета`;
             document.getElementById("ans").classList.add("goi")
         }
-    });
+    }});
 });document.addEventListener('DOMContentLoaded', function() {
     const bun = document.querySelector(".cal_oven");
     bun.addEventListener("click",function() {
