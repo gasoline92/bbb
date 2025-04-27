@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const res = s_o / Ekon_g;
         const res_k = res * 12;
         if (isFinite(res_k.toFixed(2))){
-        document.getElementById("ans").textContent = `Срок окупаемости: ${res_k.toFixed(2)} месяцев`;
+        document.getElementById("ans").textContent = `Срок окупаемости: ${res_k.toFixed(2)*2} месяцев`;
         document.getElementById("ans").classList.add("goi")
         }
         else{
