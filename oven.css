@@ -27,12 +27,11 @@ body{
 }
 .ansa_oven{
     color: black;
+    margin-top: 90px;
 }
 .goi{
     display:block;
     color: white;
-    margin-left: -90px;
-    margin-top: 90px;
 }
 .cal_oven{
     border: 0px ;
